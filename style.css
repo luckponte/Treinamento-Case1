@@ -1,0 +1,96 @@
+body{
+  background-color: Black;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  background-image:url("img/header.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 380px;
+  width: 100%;
+  display:block;
+  position: absolute;
+  top: 0;
+  z-index: -3;
+}
+
+#htext{
+ margin: 0 auto;
+ position: relative;
+ text-align: center;
+ top: 25%;
+ width: 60%;
+}
+
+#htext h1 {
+ color: #FFF;
+ font-family: 'Saira Semi Condensed', sans-serif;
+ font-size: 70px;
+ font-weight: 400;
+ line-height: 60px;
+ margin: 0;
+}
+
+#htext h2 {
+ color: #FFF;
+ font-family: 'Roboto', sans-serif;
+ text-align: center;
+ font-size: 21px;
+ font-weight: 100;
+}
+#htext h3 {
+ color: #FFF;
+ font-family: 'Roboto', sans-serif;
+ text-align: center;
+ font-size: 17px;
+ font-weight: 100;
+ margin-top:-15px;
+ margin-left: 500px;
+}
+
+.nav{
+  font-family: "Saira Semi Condensed";
+  font-size: 22px;
+  list-style-type: none;
+  line-height: 2;
+  overflow: hidden;
+  background: linear-gradient(#E3E3E3, #F5F5F5);
+
+}
+.nav li{
+  display:inline;
+}
+.nav li a{
+  display: inline-block;
+  color: black;
+  padding: 0px 8px;
+  text-decoration: none;
+}
+
+.nav li a:hover{
+  background: linear-gradient(#962AE3, #965EE3);
+  color: White;
+}
+.nav li a:active{
+  background: linear-gradient(#F74EFF, #E588E5);
+  color: Black;
+}
+
+#menu{
+  position: relative;
+  top: 358px;
+  text-align: center;
+}
+
+#desc{
+  font-family:"Roboto";
+  text-align: center;
+  display: block;
+  position: relative;
+  color: white;
+  top: 380px;
+  align-items: center;
+}
