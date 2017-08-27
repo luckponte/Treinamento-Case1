@@ -1,0 +1,82 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.menu {
+	background-color: DarkSlateGray;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	font-size: 28px;
+	z-index: 2;
+}
+
+a.menu-itens {
+	color: White;
+	font-family: "Encode Sans", sans-serif;
+	text-decoration: none;
+	border: 2px solid #FFF;
+	padding: 0 10px;
+}
+
+ul{
+	margin: 5px 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	padding: 0px;
+	margin: 0px; 
+	position: relative;
+	left: 1%;
+}
+/*
+* { 
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+*/
+.banner {
+	margin: 0;
+	padding: 0;
+	background: url(385H.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;
+	width: 100%;
+}
+
+#banner-text {
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	top: 40%;
+	width: 50%;
+	font-family:"Roboto", sans-serif;
+	font-size: 110px;
+	letter-spacing: 0.25em;
+	color: DarkSlateGray;
+	font-weight: 2500;
+}
+
+#photo {
+	width: 250px;
+	height: 250px;
+	float: left;
+	border-radius: 100%;
+	margin: 0px 40px;
+}
+
+h1.topic{
+	font-family: "Encode Sans", Roboto, sans-serif;
+	font-size: 36px;
+	color: DarkSlateGray;
+}
+
+p.topic{
+	font-family: Roboto, "Encode Sans", sans-serif;
+	font-size: 25px;
+	color: Black;
+}
