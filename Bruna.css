@@ -1,0 +1,66 @@
+body{
+	margin:0;
+	padding:0;
+	background:url("#") no-repeat center bottom;
+	background-size:cover;
+	background-attachment:fixed;
+	background-image: -webkit-linear-gradient(#FFF,#34EDED);
+}
+.box{
+	width: auto;
+	margin: auto;
+	padding: 0 10px;
+	height:60px;
+	width:100%;
+	background-color:#FFF;
+	position:fixed;
+	text-align:center;
+	top:0;
+	z-index: 100;
+
+}
+.menu{
+	text-align:center;
+	position:fixed;
+	height:100%;
+	left:0;
+	top:0;
+	width:100%;
+}
+.menu li{
+	display: inline-block;
+	font-family:"Vollkorn",serif;
+	text-transform: uppercase;
+	letter-spacing:2px;
+	font-size:24px;
+	font-weight:600;
+	margin-right:40px;
+}
+.menu a{
+	color:#2F8F8F;
+}
+.nome,.historia,.hobby,.conquistas,.desejos{
+	text-align:center;
+	top:60px;
+	position: relative;
+	margin:0 auto;
+	width:70%;
+	box-sizing:border-box;
+}
+.nome img{
+	position:center;
+	width:90%;
+}
+h3{
+	font-family:"Boogaloo",serif;
+	font-size:24px;
+}
+h2,h3{
+	font-family:"Vollkorn",serif;
+}
+h1,h2,h3{
+	color:#FFF;
+}
+p{
+	font-family:"Quattrocento",serif;
+}
