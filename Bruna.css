@@ -4,7 +4,7 @@ body{
 	background:url("#") no-repeat center bottom;
 	background-size:cover;
 	background-attachment:fixed;
-	background-image: -webkit-linear-gradient(#FFF,#34EDED);
+	background-image: -webkit-linear-gradient(#FFF,#11C7C7);
 }
 .box{
 	width: auto;
@@ -12,7 +12,8 @@ body{
 	padding: 0 10px;
 	height:60px;
 	width:100%;
-	background-color:#FFF;
+	background:url(bground1.jpg) no-repeat center;
+	background-size: cover;
 	position:fixed;
 	text-align:center;
 	top:0;
@@ -37,7 +38,7 @@ body{
 	margin-right:40px;
 }
 .menu a{
-	color:#2F8F8F;
+	color:#055353;
 }
 .nome,.historia,.hobby,.conquistas,.desejos{
 	text-align:center;
@@ -57,9 +58,11 @@ h3{
 }
 h2,h3{
 	font-family:"Vollkorn",serif;
+	color:#055353;
 }
-h1,h2,h3{
-	color:#FFF;
+h1{
+	font-size:50px;
+	color:#109471;
 }
 p{
 	font-family:"Quattrocento",serif;
