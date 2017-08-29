@@ -17,35 +17,46 @@ a.menu-itens {
 	color: White;
 	font-family: "Encode Sans", sans-serif;
 	text-decoration: none;
-	border: 2px solid #FFF;
-	padding: 0 10px;
+	padding: 0 15px;
+	text-transform: uppercase;
 }
 
 ul{
 	margin: 5px 0;
-	padding: 0;
+	text-align: center;
 }
 
 li {
 	display: inline;
-	padding: 0px;
-	margin: 0px; 
 	position: relative;
-	left: 1%;
+	/*left: 1%;*/
 }
 /*
 * { 
   border: 1px solid rgba(0, 0, 0, 0.3);
 }
 */
-.banner {
-	margin: 0;
-	padding: 0;
+.banner-index, .banner-interesses, .banner-random {
+	height: 500px;
+	width: 100%;
+}
+
+.banner-index{
 	background: url(385H.jpg) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 500px;
-	width: 100%;
+}
+
+.banner-interesses{
+	background: url(114H.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.banner-random{
+	background: url(353H.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 #banner-text {
@@ -66,17 +77,27 @@ li {
 	height: 250px;
 	float: left;
 	border-radius: 100%;
-	margin: 0px 40px;
+	margin: 20px 20px;
 }
 
-h1.topic{
+h1.main{
 	font-family: "Encode Sans", Roboto, sans-serif;
 	font-size: 36px;
 	color: DarkSlateGray;
 }
 
-p.topic{
+p.main{
 	font-family: Roboto, "Encode Sans", sans-serif;
 	font-size: 25px;
 	color: Black;
+}
+
+h2.main{
+	font-family: "Encode Sans", Roboto, sans-serif;
+	font-size: 28px;
+	color: DarkSlateGray;
+}
+
+#contato {
+	text-align: center;
 }
