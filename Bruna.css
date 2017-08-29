@@ -33,37 +33,62 @@ body{
 	font-family:"Vollkorn",serif;
 	text-transform: uppercase;
 	letter-spacing:2px;
-	font-size:24px;
+	font-size:20px;
 	font-weight:600;
 	margin-right:40px;
+	width:auto;
 }
 .menu a{
 	color:#055353;
 }
+.historia,.hobby,.conquistas,.desejos{
+	text-align:right-side;
+}
 .nome,.historia,.hobby,.conquistas,.desejos{
-	text-align:center;
 	top:60px;
 	position: relative;
 	margin:0 auto;
 	width:70%;
 	box-sizing:border-box;
 }
+.nome{
+	text-align:center;
+}
 .nome img{
 	position:center;
 	width:90%;
 }
-h3{
-	font-family:"Boogaloo",serif;
-	font-size:24px;
+.historia img,.hobby img,.conquistas img{
+
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 5px 5px 0;
+	max-height:300px;
+    max-width:200px;
 }
-h2,h3{
-	font-family:"Vollkorn",serif;
-	color:#055353;
+.escrito{
+	box-sizing:border-box;
+	text-align:relative;
+	height: auto;
+	margin-left:20px;
+	margin-left:20px; 
 }
 h1{
 	font-size:50px;
 	color:#109471;
 }
+h1,h2{
+	font-family:"Vollkorn",serif;
+}
+h2,h3{
+	color:#055353;
+}
+h3{
+	font-family:"Boogaloo",serif;
+	font-size:35px;
+	letter-spacing:3px;
+}
 p{
 	font-family:"Quattrocento",serif;
+	letter-spacing:3px;
 }
