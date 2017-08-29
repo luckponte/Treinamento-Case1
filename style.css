@@ -1,0 +1,210 @@
+body {
+	margin: 0px;
+}
+
+header{
+	margin: 0px;
+	background: url("leftbg.jpg");
+	width: 100%;
+}
+header h1{
+	font-family: Roboto;
+	color: white;
+	padding-left: 10px;
+	margin: 0px;
+	display: inline;
+	margin-bottom: 5px;
+}
+
+nav ul{
+	display: inline; 
+	margin: 0px;
+}
+
+nav ul li{
+	font-family: Roboto;
+	background: url("btnbg.png");
+	border-radius: 5px;
+	list-style-type: none;
+	display: inline-block;
+	padding: 5px;
+	margin: 10px;
+}
+
+nav ul li a{
+	color: white;
+}
+
+h2{
+	font-family: Roboto;
+	margin: 5px;
+}
+
+.corpo{
+	width: 100%;
+	min-width: 1320px;
+}
+
+.leftside{	
+	float: left;
+	background: url("rightbg.jpg");
+	height: 100vh;
+	width: 66.39%;
+	min-width: 500px;
+}
+
+.leftside p{
+	font-family: Roboto;
+	margin: 10px;
+	text-align: justify;
+}
+
+.leftside footer{
+	padding-top: 250px;
+}
+
+.rightside {
+	width: 33.59%;
+	height: 100vh;
+	min-width: 250px;
+	background: url("leftbg.jpg");
+	float: left;
+	display: inline-block;
+}
+
+.image{
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 155px;
+}
+
+
+.perfil {
+	border-radius: 40px;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.identity {
+	padding-right: 1px;
+	padding-left: 10px;
+	border: 2px solid;
+	border-radius: 20px;
+	color: white;
+	margin: auto;
+	font-family: Roboto;
+	width: 75%;
+}
+
+.logo1{
+	margin: 30px;
+	padding-left: 60px;
+	float: left;
+}
+
+.logo1 p{
+	font-family: Roboto;
+	color: white;
+	font-size: 12px;
+}
+
+
+.steam{
+	position: relative;	
+	width: 50px;
+	height: 50px;
+	top: 12px;
+}
+
+.logo2{
+	float: left;
+	padding-left: 30px;
+}
+
+.logo2 p{
+	position: relative;
+	font-family: Roboto;
+	color: white;
+	font-size: 12px;
+	top: 20px;
+	left: 3px;
+}
+
+
+.facebook{
+	position: relative;
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	top: 40px;
+
+}
+
+.logo3{
+	padding-left: 30px;
+	float: left;
+	top: 30px;
+}
+
+.logo3 p{
+	position: relative;
+	font-family: Roboto;
+	color: white;
+	top: 20px;
+	left: 22px;
+	font-size: 12px;
+}
+
+.youtube{
+	position: relative;
+	padding-left: 20px;
+	width: 60px;
+	height: 60px;
+	top: 40px;
+}
+
+/*pagina 2*/
+
+.Pagina2{
+	font-family: Roboto;
+	background: url("rightbg.jpg");
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100vh;
+	float: left;
+	text-align: justify;
+}
+
+.Pagina2 p, h2, h3{
+	margin: 10px;
+}
+
+/*pagina 3*/
+.Pagina3{
+	font-family: Roboto;
+	background: url("rightbg.jpg");
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100vh;
+	float: left;
+	text-align: justify;
+}
+
+.gif{
+	padding-left: 200px;
+	padding-top: 150px;
+	width: auto;
+	height: auto;
+}
+
+.gif img{
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;
+}
+
+
