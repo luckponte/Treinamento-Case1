@@ -1,0 +1,253 @@
+﻿
+
+*{
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/*  BANNER  */
+
+.banner {
+  background-image: url(imagens/banner_zelda.jpg);
+  height:400px;
+  backgroud-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  align-items: center;
+}
+
+.banner h1{	
+  font-family: 'Lobster', cursive;
+  font-size: 5em;
+  color: white;
+  word-spacing: 8px;
+  letter-spacing: 3px;
+  font-weight:200;
+}
+
+/* NAVEGAÇÃO */
+
+.menu{
+	font-family: 'Baloo Bhaijaan', cursive;
+	width:100%;
+	height: 55px;
+	position: relative;   
+	flex-direction: column;
+	align-items: center;
+	background-color: #9E61E8;	
+}
+
+.menu ul{
+	list-style: none;
+	display:flex;
+	text-align: center;
+}
+
+.menu ul li{
+	padding: 15px 20px;
+	flex-grow: 1;
+	border-radius: 15px;	
+}
+
+.menu ul li a{
+	text-decoration: none;  
+	color: #420A7A;
+}
+
+ul li:hover{	
+	 background-color: #DADBED;	
+}
+
+
+/* SITE */
+
+.topo{
+	width: 4em;
+    height:4em;
+	margin-right: 50%;
+	margin-left: 50%;
+	padding: 0em;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;	
+}
+.site{	
+	width: 100%;
+	background-color: #D2B2FF;
+}
+
+.post{	
+	background-color: #EAF6E9;
+	width: 50%;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.post h2{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	font-weight:200;
+	letter-spacing: 10px;
+	color: #1474D9;	
+	padding: 0.5em;
+	
+}
+
+.post h3{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	font-weight:200;
+	letter-spacing: 10px;
+	color: Red;	
+	padding: 0.5em;	
+}
+
+.post p{	
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: justify;
+	margin-top: 0.5em;
+	margin-left: 2em;
+    margin-right: 2em;	
+}
+
+.gif{	
+	width: 25em;
+    height:15em;
+	margin-top: 1em;
+	margin-left: auto;
+	margin-right: auto;
+}
+.foto{	
+	width: 19em;
+    height:19em;
+	margin-top: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0em;
+}
+
+.girls{
+	width: 25em;
+    height:19em;
+	margin-top: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0em;	
+}
+
+.prisma{
+	width: 15em;
+    height:24em;
+	margin-top: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0em;	
+}
+
+.post ul img{
+	width: 29em;
+    height:19em;
+	margin-top: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0em;	
+}
+
+.post ul{
+	list-style: none;  
+}
+.post li{	
+	color: #420A7A;
+	font-size: 1.5em;
+}
+
+.galeria {	
+	width: 20em;
+    height:24em;
+	margin-top: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0em;	
+}
+
+.foto_larga{	
+	width: 20em;
+    height:19em;
+	margin-top: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0em;
+}
+
+ .cosplay{	
+	width: 13em;
+    height:24em;
+	margin-top: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0em;	
+}
+
+#contato h3{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	font-weight:300;
+	letter-spacing: 5px;
+	color: red;	
+	padding: 0.5em;	
+}
+
+
+.icone2{
+	width: 4em;
+    height:4em;
+	margin-right: auto;
+	padding: 0em;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+#agradecimento{
+	
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 0.8em;
+	text-align: center;
+	font-weight:300;
+	letter-spacing: 5px;
+	color: red;	
+	padding: 0.5em;	
+	
+}
+/* FINALIZANDO  FOOTER */
+
+#footer p{
+    font-family: 'Josefin Sans', sans-serif;
+	font-size: 1em;
+	text-align: center;
+	font-weight:300;
+	letter-spacing: 5px;
+	color: #420A7A;	
+	padding: 0.5em;	
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 520px){ /* quando a tela chegar a 520px ele vai mudar a direção do menu*/
+	.menu ul{
+		display: block;
+	}
+	.menu{
+		height: 300px;
+	}
+	.post{	
+	background-color: #EAF6E9;
+	width: 100%;
+	text-align: center;
+	margin: 0px auto;
+}
+}
