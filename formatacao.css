@@ -1,0 +1,55 @@
+body {
+
+font-size: 18px;
+
+background-color: #D1E0F8;
+
+font-family: verdana;
+
+font-style: black;
+
+text-align: left;
+
+}
+
+table.tabela{
+
+background-color: #BDD4F9;
+
+}
+
+table, td{
+
+font-family: verdana;
+
+}
+
+p{
+
+text-align: justify;
+
+margin-left: 2.5%;
+
+margin-right: 2.5%;
+
+}
+
+img.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+a:link , a:visited, a:active{
+	font-family: verdana;
+	color: black;
+	text-decoration:none;
+}
+
+a:hover {
+	font-family: verdana;
+	color: #FB2E2E;
+	text-decoration:none;
+}
